@@ -1,0 +1,37 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "author": "Jonah Pelfrey",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.2",
+    "connect-memcached": "^0.2.0",
+    "cookie-parser": "^1.4.3",
+    "csvtojson": "^1.1.9",
+    "dotenv": "^4.0.0",
+    "express": "^4.16.2",
+    "express-session": "^1.15.6",
+    "jsonfile": "^4.0.0",
+    "jsonwebtoken": "^8.1.0",
+    "jwt-simple": "^0.5.1",
+    "mongoose": "^4.12.4",
+    "morgan": "^1.9.0",
+    "path": "^0.12.7",
+    "q": "^1.5.1",
+    "session-file-store": "^1.1.2",
+    "socket.io": "^2.0.4"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-http": "^3.0.0",
+    "mocha": "^4.0.1",
+    "nodemon": "^1.12.1"
+  },
+  "scripts": {
+    "test": "mocha",
+    "start": "node server.js"
+  }
+}

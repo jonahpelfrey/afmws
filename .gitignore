@@ -1,0 +1,8 @@
+#Dependencies
+node_modules
+
+#ENV
+.env
+.DS_STORE
+data.json
+members.csv
